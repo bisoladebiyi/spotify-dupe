@@ -26,8 +26,8 @@ export const NavItems: INav[] = [
     },
     {
         name: 'Liked Songs',
-        icon: '<div style="background: #fff; border-radius: 2px; width: 24px; height: 24px; display: grid; place-items: center"><svg role="img" height="12" width="12" viewBox="0 0 16 16" data-encore-id="icon"><path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z"></path></svg></div>',
-        inactive_icon: '<div style="background: hsla(0,0%,100%,.7); border-radius: 2px; width: 24px; height: 24px; display: grid; place-items: center""><svg role="img" height="12" width="12" viewBox="0 0 16 16" data-encore-id="icon"><path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z"></path></svg></div>',
+        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20.205 4.79099C19.6536 4.2357 18.9979 3.79488 18.2756 3.49387C17.5533 3.19286 16.7786 3.03759 15.996 3.03699C14.5158 3.03723 13.0897 3.59326 12 4.59499C10.9104 3.59309 9.48422 3.03703 8.00401 3.03699C7.22055 3.0378 6.44499 3.19355 5.72195 3.49526C4.99891 3.79696 4.34268 4.23868 3.79101 4.79499C1.43801 7.15799 1.43901 10.854 3.79301 13.207L12 21.414L20.207 13.207C22.561 10.854 22.562 7.15799 20.205 4.79099Z" fill="#fff"/></svg>',
+        inactive_icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20.205 4.79099C19.6536 4.2357 18.9979 3.79488 18.2756 3.49387C17.5533 3.19286 16.7786 3.03759 15.996 3.03699C14.5158 3.03723 13.0897 3.59326 12 4.59499C10.9104 3.59309 9.48422 3.03703 8.00401 3.03699C7.22055 3.0378 6.44499 3.19355 5.72195 3.49526C4.99891 3.79696 4.34268 4.23868 3.79101 4.79499C1.43801 7.15799 1.43901 10.854 3.79301 13.207L12 21.414L20.207 13.207C22.561 10.854 22.562 7.15799 20.205 4.79099Z" fill="hsla(0,0%,100%,.7)"/></svg>',
         link: ROUTES.LIKED_SONGS_PAGE,
         route_name: "Liked Songs"
     }
