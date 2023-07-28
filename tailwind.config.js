@@ -7,7 +7,8 @@ module.exports = {
         'card-bg': '#181818'
       },
       colors: {
-        'faint': '#b3b3b3;'
+        'faint': '#b3b3b3;',
+        'primary': '#19B352'
       },
       boxShadow: {
         'imgShadow': '0 8px 24px rgb(0 0 0 / 50%)'

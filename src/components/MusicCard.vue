@@ -13,6 +13,7 @@ import { defineComponent, PropType } from "vue";
 import { IMusicCard } from "../utils/types/MusicType";
 
 export default defineComponent({
+    name: "MusicCard",
     props: {
         music: {
             required: true,

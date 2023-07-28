@@ -3,4 +3,5 @@ export interface IMusicCard {
     artist: string;
     imgSrc: string;
     isArtist?: boolean;
+    duration: string
 }

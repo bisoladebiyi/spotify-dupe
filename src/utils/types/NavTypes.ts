@@ -3,4 +3,5 @@ export interface INav {
     link: string
     icon: string
     inactive_icon?: string
+    route_name: string
 }
