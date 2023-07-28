@@ -1,4 +1,5 @@
 import { ROUTES } from "./routes";
+import { IMusicCard } from "./types/MusicType";
 import { INav } from "./types/NavTypes";
 
 export const NavItems: INav[] = [
@@ -24,6 +25,34 @@ export const NavItems: INav[] = [
         name: 'Liked Songs',
         icon: '<div style="background: #fff; border-radius: 2px; width: 24px; height: 24px; display: grid; place-items: center"><svg role="img" height="12" width="12" viewBox="0 0 16 16" data-encore-id="icon"><path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z"></path></svg></div>',
         inactive_icon: '<div style="background: hsla(0,0%,100%,.7); border-radius: 2px; width: 24px; height: 24px; display: grid; place-items: center""><svg role="img" height="12" width="12" viewBox="0 0 16 16" data-encore-id="icon"><path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z"></path></svg></div>',
-        link: ROUTES.LIBRARY_PAGE
+        link: ROUTES.LIKED_SONGS_PAGE
     }
+]
+
+export const dummyMusic: IMusicCard[] = [
+    {
+        name: 'Boy Alone',
+        artist: 'Omah Lay',
+        imgSrc: 'https://i.scdn.co/image/ab67616d00001e02de14fe659e3f9327af026e42'
+    },
+    {
+        name: 'Love, Damini',
+        artist: 'Burna Boy',
+        imgSrc: '	https://i.scdn.co/image/ab67616d00001e022875aeaaff6765aed2c98f31'
+    },
+    {
+        name: 'Boy Alone',
+        artist: 'Omah Lay',
+        imgSrc: 'https://i.scdn.co/image/ab67616d00001e02de14fe659e3f9327af026e42'
+    },
+    {
+        name: 'Love, Damini',
+        artist: 'Burna Boy',
+        imgSrc: '	https://i.scdn.co/image/ab67616d00001e022875aeaaff6765aed2c98f31'
+    },
+    {
+        name: 'Boy Alone',
+        artist: 'Omah Lay',
+        imgSrc: 'https://i.scdn.co/image/ab67616d00001e02de14fe659e3f9327af026e42'
+    },
 ]
