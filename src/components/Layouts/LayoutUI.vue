@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full h-full flex">
+  <div class="w-full h-full flex overflow-hidden">
     <SideNav />
-    <main class="px-10 w-full">
+    <main class="px-10 w-full overflow-auto">
       <TopNav />
       <slot />
     </main>

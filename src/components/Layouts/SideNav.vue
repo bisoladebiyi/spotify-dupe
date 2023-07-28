@@ -9,12 +9,12 @@
           <li
             class="flex items-start space-x-3 px-4 py-2 mb-3.5"
             :class="
-              item.name.toLowerCase() == currentPage &&
+              item.route_name == $route.name &&
               'bg-white bg-opacity-10 rounded'
             "
           >
             <span
-              v-if="item.name.toLowerCase() == currentPage"
+              v-if="item.route_name == $route.name"
               v-html="item.icon"
             ></span>
             <span v-else v-html="item.inactive_icon"></span>
@@ -32,11 +32,11 @@ import { INav } from "../../utils/types/NavTypes";
 import { NavItems } from "../../utils/constants";
 
 export default defineComponent({
+  name: "SideNav",
   setup() {
     const navItems = ref<INav[]>(NavItems);
-    const currentPage = ref<string>("home");
 
-    return { navItems, currentPage };
+    return { navItems };
   },
 });
 </script>

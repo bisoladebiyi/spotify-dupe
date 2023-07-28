@@ -1,8 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import { OhVueIcon, addIcons } from "oh-vue-icons";
+import { CoHeart, FaHeart } from "oh-vue-icons/icons";
 import './index.css'
 
 
+addIcons(CoHeart, FaHeart);
 
-createApp(App).use(router).mount('#app')
+createApp(App).use(router).component("v-icon", OhVueIcon).mount('#app')
