@@ -1,16 +1,13 @@
 <template>
-  <LayoutUI>
-  </LayoutUI>
+  <router-view></router-view>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import LayoutUI from "./components/Layouts/LayoutUI.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    LayoutUI,
   },
 });
 </script>
